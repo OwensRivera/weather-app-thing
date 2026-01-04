@@ -29,7 +29,7 @@ def describe_weather_code(code: int) -> str:
         if code in codes:
             return desc
     return "Unknown"
-
+##
 
 def geocode_city(city: str):
     city = city.strip()
@@ -164,7 +164,7 @@ def on_get_weather():
 
 root = tk.Tk()
 root.title("Weather App")
-root.geometry("520x420")
+root.geometry("700x700")
 root.resizable(False, False)
 
 main = ttk.Frame(root, padding=12)
